@@ -36,6 +36,30 @@
         article .box{
             color: green;
         }
+        .example-heading{
+            color: red;
+        }
+        .example-paragraph{
+            color: green;
+        }
+        .example-inline{
+            font-weight: bold;
+            color: orange;
+        }
+        .example-important{
+            text-transform: uppercase;
+            font-weight: bold;
+            color: black;
+        }
+        /* this is a comment */
+        .example-ol li{
+            color: blue;
+            font-weight: bold;
+        }
+        .example-ul li{
+            color: purple;
+            text-transform: uppercase;
+        }
     </style>
 </head>
 <body>
@@ -265,5 +289,47 @@ Both div and span can make use of various global attributes like class, id, lang
     tables are preferred option for creating layouts in HTML email because the other
     better options are not supported
     <hr>
+    <h2>HTML and CSS part 2</h2>
+    html is all about recognizing commonly used elements such as paragraphs, headings, lists, links, images, etc. <br>
+css has <b>two</b> parts - the <b>selector</b> and the <b>declaration</b> block
+<hr>
+<h2>CSS Components</h2>
+p{
+        color: blue;
+    }
+    p - selector
+    color - property
+    blue - value
+    each style declaration consists of <b>two</b> parts - a <b>property</b> and a <b>value</b> 
+    <hr>
+     <h2>Writing Your First Comment and Element Selector</h2>
+    <b>example below</b> 
+    <h2 class="example-heading">H + Sport</h2>
+    <p class="example-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque rem optio eos explicabo corporis similique cupiditate pariatur, inventore dignissimos temporibus, saepe,<span class="example-inline">Lorem ipsum dolor sit amet.</span> laboriosam excepturi sequi quia harum eius sit in quo repudiandae! Facere nihil aspernatur quasi dolores quam veritatis ea, <span class="example-important">Lorem, ipsum dolor.</span>quas necessitatibus enim distinctio illum ad. A atque cupiditate aliquid nemo?</p>
+<ol class="example-ol">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ul class="example-ul">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <hr>
+    <h2>Identify a Color Scheme</h2>
+    It is interesting to note that the chart of named colors also provides the hex value equivalent. For example, using the name "Cornflower Blue" or the hex value "6495ED" will give you the same shade of blue. <br>
+    in editing CSS you may come across the hex value "777888999" whicg is simplified to 789. only if the each two-digit pair is the same. #778899 - #789, #778899cc - rbga(119,136,153,0.8), HSL, HSLA
+    <hr>
+    <h2>Understanding Images in CSS</h2>
+    There are various image formats, like GIF, PNG, JPEG, bitmap, TIFF, and more proprietary formats like PSD. Traditionally, the web has supported three types of image formats. 
+<ol>
+        <li><b>GIF</b> -Had limited colors but could include transparency and animation </li>
+        <li><b>PNG</b> - Had more colors and transparency but no animation. GIF and PNG were suitable for illustrations such as logos or cartoons. </li>
+        <li><b>JPEG</b> - Stands for Joint Photographic Experts Group, was optimized for photographs and supported millions of colors but lacked transparency and animation. </li>
+        <li><b>WebP</b> - can be used for nay image type and offers high compression for smaller file sizes,resulting in faster website loading times.</li>
+    </ol>
+     <hr>
+    <h2>Working with Background Images in CSS</h2>
 </body>
 </html>
