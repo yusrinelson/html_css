@@ -60,6 +60,25 @@
             color: purple;
             text-transform: uppercase;
         }
+        ul{
+            background: url("https://plus.unsplash.com/premium_photo-1722769612836-76c134c1dd21?q=80&w=1675&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") repeat-x left 80%;
+        }
+        .list-hover li{
+            background-color: #ffb000;
+        }
+        .list-hover a{
+            color: #dc267f;
+            text-decoration: none;
+        }
+        .list-hover a:hover{
+            color: rgb(43, 198, 226);
+        }
+        .list-hover a:visited{
+            color: aquamarine;
+        }
+        .list-hover a:hover{
+            color: rgb(43, 198, 226);
+        }
     </style>
 </head>
 <body>
@@ -330,6 +349,49 @@ p{
         <li><b>WebP</b> - can be used for nay image type and offers high compression for smaller file sizes,resulting in faster website loading times.</li>
     </ol>
      <hr>
-    <h2>Working with Background Images in CSS</h2>
+   <h2>Applying Type Formatting with CSS</h2>
+    <h3>H + Sport</h3>
+    <h4>what is the best exercise?</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quibusdam perspiciatis iusto beatae sunt odio nostrum alias saepe laborum omnis?</p>
+    <h4>go outside and play</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab mollitia distinctio dicta sint exercitationem necessitatibus reiciendis unde quidem in nesciunt!</p>
+    <br>
+     font stacking is used so that if one of the fonts dont work, it selects the alternative one.
+    <hr>
+    <h2>Understanding and Applying size in CSS</h2>
+    In web design, there are two types of sizing: absolute and relative.
+    1rem is 16px. 1.5rem * 16 = to the size in px
+    <ul>
+        <li><b>ABSOLUTE</b></li>
+        <li>points </li>
+        <li>pixels</li>
+        <li>dont change the screen size</li>
+    </ul>
+    <ul>
+        <li><b>RELATIVE</b></li>
+        <li>percentage</li>
+        <li>rem</li>
+        <li>change the screen size and zoom for better flexibility</li>
+    </ul>
+    <hr>
+    <h2>Understanding the Box Model in CSS</h2>
+    In web development, every HTML element is like a box with different properties.
+    content - text inside the box <br>
+    border - line surrounding the text <br>
+    padding - the space between content and border
+    margin - space around the border(everything metntioned above)
+    <hr>
+    <h2>Advanced CSS Properties and Concepts</h2>
+    <ul class="list-hover">
+        <li><a href="#">test2</a></li>
+        <li><a href="#">test2</a></li>
+        <li><a href="#">test2</a></li>
+    </ul>
+    the order of these styles is crucial. Either use "a" and then "a:hover" or "a:link," 
+    "a:visited," and "a:hover" in that specific order for the styling to work correctly. <br>
+    when you have links within long text, it is important to keep the underlines. This is especially helpful 
+    for people who may be colorblind or have disabilities that make it difficult for them to differentiate between 
+    the link and the surrounding text. 
+    <hr>
 </body>
 </html>
